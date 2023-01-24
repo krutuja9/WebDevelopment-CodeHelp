@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimmeTable3</title>
+    <style>
+        .container{
+           
+            padding: 30px; 
+            display: flex;
+            justify-content: center;
+         
+        }
+        table,td,th,tr{
+            border: 1px solid;
+            border-collapse: collapse;
+            text-align: left;
+        
+           
+        }
+        tr:nth-child(1),tr:nth-child(3)
+        {
+            background-color: rgba(147, 154, 154, 0.204);
+        }
+        td,tr,th{
+            padding: 0.8vmax;
+        }
+        table{
+            width: 50%;
+        }
+        .foot{
+            caption-side: bottom;
+            position: relative;
+            padding: 1vmax;
+            left: 26vmax;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <table>
+        <caption>A complex Table</caption>
+        <caption class="foot">Created By&copy; RUTUJA KOKATE </caption>
+
+        <tr>
+            <th colspan="3">Invoice#123456789</th>
+            <th>14 January 2025</th>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Pay to:</b><br>
+                Acme Billing Co.<br>
+                123 Main St.<br>
+                Cityville, NA 12345 </td>
+
+            <td colspan="2"><b>Customer:</b><br>
+               John Smith<br>
+                321 Willow Wednesday<br>
+              Southeast NOrthwestershire, MA 54321
+
+            </td>
+        </tr>
+       
+        <tr>
+            <th>Name/ Description</th>
+            <th>Qty.</th>
+            <th>@</th>
+            <th>Cost</th>
+        </tr>
+        <tr>
+            <td>Paperclips</td>
+            <td>1000</td>
+            <td>0.01</td>
+            <td>10.00</td>
+        </tr>
+        <tr>
+            <td>Staples(box)</td>
+            <td>100</td>
+            <td>1.00</td>
+            <td>100.00</td>
+        </tr>
+        <tr>
+            <th colspan="3" style=" background-color: rgba(147, 154, 154, 0.204);" >Subtotal</th>
+            <td>110.00</td>
+        </tr>
+        <tr>
+            <th colspan="2" style=" background-color: rgba(147, 154, 154, 0.204);">Tax</th>
+            <td>8%</td>
+            <td>8.80</td>
+        </tr>
+        <tr>
+            <th colspan="3" style=" background-color: rgba(147, 154, 154, 0.204);">Grand Total</th>
+            <td>$118.80</td>
+
+        </tr>
+    </table>
+   </div>
+</body>
+</html>
