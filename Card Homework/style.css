@@ -1,0 +1,56 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.wrapp{
+    width: 80%;
+    display: flex;
+    justify-content:space-evenly;
+    align-content: center;
+    border-radius: 7px;
+    padding: 1em;
+    border: 1px solid rgba(184, 184, 184, 0.359);
+}
+.container{
+   
+    width: 29%;
+    height: 50%;
+    border: 1px solid rgba(184, 184, 184, 0.359);
+    border-radius: 7px;
+    padding: 1em;
+    box-shadow: 2px 2px 7px rgb(213, 209, 209);
+   
+}
+.caption{
+    font-size: 25px;
+    padding: 5px;
+}
+img{
+    width: 350px;
+    height: 200px;
+    border-radius: 7px;
+}
+.discount{
+    padding: 2px;
+     margin: 1%;
+    color: rgba(102, 144, 206, 0.977);
+}
+.origin{
+    padding: 3px;
+    color: rgb(86, 87, 88);
+    text-decoration: line-through;
+}
+button{
+    background-color: rgb(8, 234, 110);
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid  rgb(8, 234, 110);
+    margin: 1%;
+}
+.hr{
+    width: 250px;
+    margin-left: 1px;
+    border: 1px solid rgb(219, 219, 186);
+}
